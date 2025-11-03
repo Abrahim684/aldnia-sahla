@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# المجلدات المحمية
+Disallow: /data/
+Disallow: /uploads/
+Disallow: /admin/
+
+# خريطة الموقع
+Sitemap: https://aldnia-sahla.kesug.com/sitemap.xml
+
+# إعدادات الزحف
+Crawl-delay: 1
+Request-rate: 1/1
+
+# محركات البحث المحددة
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# منع بعض المحتويات غير المرغوب فيها
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /*.rar$

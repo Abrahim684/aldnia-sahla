@@ -1,0 +1,404 @@
+/* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --bg-color: #e9eaff;
+    --text-color: #000;
+    --header-bg: #003c64;
+    --card-bg: #fff;
+    --footer-bg: #003c64;
+    --btn-bg: #cfe9ff;
+    --btn-hover: #b0dbff;
+    --btn-text: #004080;
+    --badge-bg: #e9eef5;
+    --badge-text: #27496d;
+    --badge-modern-bg: #e9fbf1;
+    --badge-modern-border: #b7f0d2;
+    --badge-modern-text: #0b5e3c;
+    --card-shadow: rgba(0, 102, 204, 0.5);
+    --card-shadow-hover: rgba(0, 102, 255, 0.7);
+    --filter-bg: #add8e6;
+}
+
+.dark-mode {
+    --bg-color: #000000;
+    --text-color: #bbecff;
+    --header-bg: #0b0146;
+    --card-bg: #000;
+    --footer-bg: #0b0146;
+    --btn-bg: #3a75c4;
+    --btn-hover: #2d5a99;
+    --btn-text: #000000;
+    --badge-bg: #2a3342;
+    --badge-text: #bbecff;
+    --badge-modern-bg: #1e3a2b;
+    --badge-modern-border: #2e6040;
+    --badge-modern-text: #c7ffe6;
+    --card-shadow: rgba(0, 102, 204, 0.35);
+    --card-shadow-hover: rgba(0, 102, 255, 0.5);
+    --filter-bg: #1a3a5f;
+}
+
+body {
+    direction: rtl;
+    background: var(--bg-color)!important;
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+    line-height: 1.6;
+}
+
+/* الهيدر */
+.platform-header {
+    background-color: var(--header-bg);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 12px 15px var(--card-shadow);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-self: start;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,.25));
+}
+
+.logo img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(255,255,255,0.6), -2px -2px 6px rgba(255,255,255,0.4);
+}
+
+.theme-toggle {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background .3s ease;
+    justify-self: end;
+}
+
+.theme-toggle:hover {
+    background: var(--btn-hover);
+}
+
+/* المحتوى الرئيسي */
+.easylife-platform {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* الفلاتر */
+.filters-section {
+    margin-top: 20px;
+    background-color: var(--filter-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(146, 155, 170, 0.25);
+    margin: 20px 0;
+}
+
+.filters-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.filter-group {
+    margin-bottom: 0;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.filter-group select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    min-width: 160px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+/* ⭐ تصميم مساحات الإعلانات */
+.ad-section {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.ad-container {
+    background: var(--card-bg);
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.ad-container::before {
+    content: "مساحة إعلانية";
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* ⭐ تحسين ظهور الإعلانات في الوضع الليلي */
+.dark-mode .ad-container {
+    border-color: #444;
+    background: var(--card-bg);
+}
+
+.dark-mode .ad-container::before {
+    color: #888;
+}
+
+/* نتائج البحث */
+.results-section {
+    margin: 30px 0;
+}
+
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.resource-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.resource-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px var(--card-shadow-hover);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.meta-tag {
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.card-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.download-btn {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: var(--btn-hover);
+    transform: translateY(-2px);
+}
+
+/* حالات التحميل والنتائج */
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.1rem;
+    color: #666;
+    grid-column: 1 / -1;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.1rem;
+    color: #666;
+    grid-column: 1 / -1;
+}
+
+/* ⭐ تحسين أداء الصور لـ SEO */
+.resource-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    /* تحسين سرعة التحميل */
+    loading: lazy;
+    decoding: async;
+}
+
+/* ⭐ تحسين إمكانية الوصول */
+@media (prefers-reduced-motion: reduce) {
+    .resource-card, .theme-toggle, .download-btn {
+        transition: none;
+    }
+}
+
+/* ⭐ تحسين الطباعة */
+@media print {
+    .platform-header, .filters-section, .theme-toggle {
+        display: none;
+    }
+    
+    .resource-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}
+
+/* تحسينات للجوال */
+@media (max-width: 768px) {
+    .header-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .logo {
+        justify-self: center;
+    }
+
+    .logo-text {
+        font-size: 1.6rem;
+    }
+
+    .filters-grid {
+        flex-direction: column;
+    }
+
+    .filter-group select {
+        width: 100%;
+        max-width: none;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .results-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/* تأثيرات الفوتر */
+@keyframes gradientFlow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes backgroundShift {
+    0%, 100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.02);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}

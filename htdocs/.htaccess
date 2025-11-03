@@ -1,0 +1,49 @@
+# تحسينات الأداء والأمان - متوافق مع InfinityFree
+RewriteEngine On
+
+# ضغط GZIP - تحسين السرعة
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/json
+</IfModule>
+
+# التخزين المؤقت - تحسين الأداء
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 day"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType application/json "access plus 1 hour"
+</IfModule>
+
+# الأمان الأساسي
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    
+    # CORS آمن لملفات JSON فقط
+    <FilesMatch "\.(json)$">
+        Header set Access-Control-Allow-Origin "https://aldnia-sahla.kesug.com"
+        Header set Access-Control-Allow-Methods "GET, OPTIONS"
+        Header set Access-Control-Allow-Headers "Content-Type"
+    </FilesMatch>
+</IfModule>
+
+# منع الوصول للملفات الحساسة
+<Files ~ "\.(env|log|sql)$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# إعادة التوجيه من HTTP إلى HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
