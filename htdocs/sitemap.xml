@@ -2,15 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- الصفحة الرئيسية -->
   <url>
     <loc>https://aldnia-sahla-s2qy.vercel.app/</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- الصف الأول الثانوي -->
   <url>
     <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=رياضيات&amp;contentType=ملخص</loc>
     <lastmod>2024-01-20</lastmod>
@@ -96,7 +93,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- الصف الثاني الثانوي -->
   <url>
     <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات&amp;contentType=ملخص</loc>
     <lastmod>2024-01-20</lastmod>
