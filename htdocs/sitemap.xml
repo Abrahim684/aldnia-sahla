@@ -1,217 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=رياضيات&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=رياضيات&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=عربي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=عربي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=علوم-متعاكله&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=علوم-متعاكله&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=انجليزي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=انجليزي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=تاريخ&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=تاريخ&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فرنساوي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فرنساوي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فلسفة-منطق&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فلسفة-منطق&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=عربي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=عربي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فيزياء&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فيزياء&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=كمياء&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=كمياء&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=انجليزي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=انجليزي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=تاريخ&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=تاريخ&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فرنساوي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فرنساوي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=جغرافيا&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=جغرافيا&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=علم-نفس-اجتماع&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=علم-نفس-اجتماع&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات-ادبي&amp;contentType=ملخص</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات-ادبي&amp;contentType=تقييم</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=رياضيات&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=رياضيات&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=عربي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=عربي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=علوم-متعاكله&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=علوم-متعاكله&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=انجليزي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=انجليزي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=تاريخ&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=تاريخ&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فرنساوي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فرنساوي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فلسفة-منطق&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=1&amp;subject=فلسفة-منطق&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=عربي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=عربي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فيزياء&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فيزياء&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=كمياء&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=كمياء&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=انجليزي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=انجليزي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=تاريخ&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=تاريخ&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فرنساوي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=فرنساوي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=جغرافيا&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=جغرافيا&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=علم-نفس-اجتماع&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=علم-نفس-اجتماع&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات-ادبي&amp;contentType=ملخص</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aldnia-sahla-s2qy.vercel.app/?grade=ثانوي&amp;class=2&amp;subject=رياضيات-ادبي&amp;contentType=تقييم</loc>
+<lastmod>2025-11-12</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 </urlset>
