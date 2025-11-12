@@ -7,7 +7,7 @@ Disallow: /uploads/
 Disallow: /admin/
 
 # خريطة الموقع
-Sitemap: https://aldnia-sahla-s2qy.vercel.app/sitemap.xml
+Sitemap: https://aldnia-sahla-s2qy.vercel.app/my-sitemap.xml
 
 # إعدادات الزحف
 Crawl-delay: 1
